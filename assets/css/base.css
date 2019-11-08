@@ -1,0 +1,15 @@
+/*CORPO*/
+.body {
+  font-family: 'Muli', sans-serif;
+  background-color: #000000;
+}
+/*HEADER*/
+.header {
+}
+/*MAIN*/
+.main {
+}
+
+/*MOBILE*/
+@media (max-width: 0rem) {
+}
