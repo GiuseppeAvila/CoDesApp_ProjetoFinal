@@ -1,15 +1,59 @@
-/*CORPO*/
-.body {
-  font-family: 'Muli', sans-serif;
-  background-color: #000000;
-}
-/*HEADER*/
-.header {
-}
-/*MAIN*/
-.main {
-}
 
 /*MOBILE*/
-@media (max-width: 0rem) {
+@media (max-width: 60rem) {
+
+	/*CORPO*/
+	.body {
+	  position: relative;
+	  font-family: 'Muli', sans-serif;
+	  width: 100%;
+	  background-color: gold;
+	}
+	/*HEADER*/
+	.header {
+		display: flex;
+		position: relative;
+		background-color: #0000ff;
+		border-style: solid;
+		border-width: 5px;
+	}
+	.img_perfil{
+	  position: relative;
+	  width: 4rem;
+	  border-style: solid;
+	  border-radius: 5rem;
+	  border-width: 2px;
+	  margin-top: 1rem;
+	  margin-bottom: 1rem;
+	  margin-left: 1rem;
+	}
+
+	.img_calendario{
+		position: relative;
+	  width: 2.5em;
+	  margin-left: auto;
+	  margin-right: 2.5rem;
+	  border-width: 2px;
+	  margin-top: 1.5rem;
+	  margin-bottom: 1rem;
+	}
+	/*MAIN*/
+	.main {
+		display: flex;
+		position: relative;
+		margin: 1rem;
+		background-color: #0000ff;
+		border-style: solid;
+		border-width: 5px;
+	}
+	.container {
+		display: block;
+		position: relative;
+		background-color: #000000;
+		margin: 2rem;
+		border-style: solid;
+		
+
+
+	}
 }
