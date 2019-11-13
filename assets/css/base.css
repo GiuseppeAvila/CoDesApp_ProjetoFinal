@@ -5,26 +5,24 @@
 }
 /*HEADER*/
 .header {
-  background-color: #ADC2CC;
-  padding: .5rem .5rem;
-  display: fixed;
+  background-color: #FFC226;
+  width: 100%;
+  padding-top: .5rem;
+  position: fixed;
   box-shadow: .5px .5px 5px gray;
 }
 .header-display {
 	display: flex;
 	flex-flow: row nowrap;
 }
-
 .calendário-fig {
 	height: 3.5rem;
 	width: 3.5rem;
 	display: flex;
 	align-items: center;
-
 }
 .calendário-img {
 	width: 3rem;
-
 }
 /*MOBILE*/
 @media (max-width: 0rem) {
