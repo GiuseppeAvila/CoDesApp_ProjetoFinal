@@ -1,7 +1,149 @@
-.classes {
+.top-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.perfil-fig {
+  width: 100%;
+}
+
+.perfil-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  width: 10rem;
+  margin-right: .5rem;
+  padding-left:.5rem;
 
 }
 
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+
+}
+.navigator {
+  background-color: #829299;
+  padding: .25rem .5rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.filter {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  text-shadow: .5px .5px 20px black;
+}
+.down-arrow {
+  color: white;
+  text-shadow: .5px .5px 20px black;
+}
+/*MAIN*/
+.paciente-box {
+  width: 95.5%;
+  margin: 1rem auto;
+  display: flex;
+  flex-flow: column: nowrap;
+  box-sizing: border-box;
+  box-shadow: 0 8px 5px gray;
+}
+
+
+.paciente {
+  height: 4rem;
+  background-color: #829299;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+
+}
+.paciente-fig {
+  margin-left: .5rem;
+}
+.paciente-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+}
+.paciente-info {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: .5rem;
+  width: 100%;
+}
+/*TAGS*/
+.tag-fig {
+  margin-right: .5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 70%;
+  align-items: flex-end;
+}
+.tag-leg {
+  margin-right: .5rem;
+}
+.tag-img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+/*+*/
+.plus-box {
+  display: flex;
+  width: 97.5%;
+  margin: .25rem auto;
+  flex-flow: row-reverse nowrap;
+}
+.plus {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-right: .25rem;
+  margin-top: .25rem;
+  box-shadow: .5px .5px 20px black;
+}
 /*UNDER HALF*/
 @media (max-width: 0rem) {
 }
