@@ -1,0 +1,60 @@
+.main-box {
+}
+.box1 {
+}
+.nome {
+  width: 12rem;
+}
+.idade {
+  width: 6rem;
+}
+.status {
+}
+.number {
+}
+.slicer {
+}
+.status-legenda {
+}
+.time {
+}
+.days {
+}
+.list {
+}
+.list-item {
+  margin-left: 0;
+}
+
+.box2 {
+}
+.inbox2 {
+}
+.telefone-img {
+}
+.pessoa-fig {
+}
+.pessoa-img {
+}
+.risco {
+}
+.pago {
+}
+.tick-img {
+}
+.anotation-box {
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+}
+.anotation-text {
+}
+/*UNDER HALF*/
+@media (max-width: 0rem) {
+}
