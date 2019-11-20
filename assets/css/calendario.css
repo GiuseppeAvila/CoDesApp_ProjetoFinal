@@ -1,0 +1,48 @@
+/*SPACER*/
+.spacer {
+  padding: 0;
+  height: 10vh;
+}
+.semana, .dia {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.semana {
+  height: 5vh;
+}
+.semana-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+.dia {
+  height: 85vh;
+}
+.dia-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-flow: column nowrap;
+
+}
+.dia-valor {
+  font-size: 1.2rem;
+  color: gray;
+  margin: .5rem auto;
+}
+.agendamento {
+  width: 90%;
+  margin: .25rem auto;
+  text-align: center;
+}
+.agendamento:hover,
+.agendamento:focus  {
+  background-color: green;
+}
+.agendamento:active,
+.agendamento.is-selected {
+}
+/*UNDER HALF*/
+@media (max-width: 0rem) {
+}
