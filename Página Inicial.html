@@ -57,34 +57,31 @@
     </a>
   </footer>
 
-  <!--PACIENTE-->
-  <a href="Perfil da Paciente.html" class="paciente-box">
-    <!---->
+  <div class = body-pacientes>
+    {{#each this}}
+    <!--PACIENTE-->
+    <a href="Perfil da Paciente.html" class="paciente-box">
     <div class="paciente">
-
       <!--IMG-->
       <figure class="paciente-fig">
         <img class="paciente-img" style="border-color:red;" src=".\assets\img\Renata.jpg">
       </figure>
 
       <!--INFO-->
-      <div class="paciente-info">
+      <div class="paciente-info">     
         <h2>
-          ANDRÉ DOS SANTOS
-        </h2>
-        <h3>
-          56
-        </h3>
+          {{this.nome}}
+        </h2> 
       </div>
-      
       <!--TAG-->
       <figure class="tag-fig">
-        <legend class="tag-leg">15:30</legend>
+        <legend class="tag-leg">{{this.horario}}</legend>
         <img class="tag-img" src=".\assets\img\relógio.jpg">
         <img class="tag-img" src=".\assets\img\$.png">
         <img class="tag-img" src=".\assets\img\!.png">
       </figure>
     </div>
+    {{/each}}
   </a>
 
 </body>

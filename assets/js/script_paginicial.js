@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
     A função coDesConnect cria uma conexão com o Firebase.
   */
 
-  let db = coDesConnect("https://portfolio-5298e.firebaseio.com/")
+  let db = coDesConnect("https://projetofinal-4ecc0.firebaseio.com/")
   /*
    CAPTURAS DOS DADOS
   */
 
-  db.download("portfolio", function(data) {
-    coDesReplace(".bloco2", data)
+  db.download("telainicial", function(data) {
+    coDesReplace(".body-pacientes", data)
   })
 })
