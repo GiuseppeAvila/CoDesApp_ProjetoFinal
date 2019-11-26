@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--HEAD-->
+<head>
+  <!--TITULO-->
+  <title>TITULO</title>
+  <!--FONTE-->
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap"    rel="stylesheet">
+  <!--STYLE-->
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/base.css"  rel="stylesheet">
+  <link href="assets/css/pagina_inicial.css" rel="stylesheet">
+  <link href="assets/css/header_style.css" rel="stylesheet">
+  <link href="assets/css/perfil_paciente.css" rel="stylesheet">
+  <link href="assets/css/adiciona_paciente.css" rel="stylesheet">
+  <!--META-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<!--BODY-->
+<body class="body">
+  <!--HEADER-->
+  <header class="header">
+    <div class="header-display">
+      <!--RENATA-->
+      <figure class="perfil-fig">
+        <a href="inicial.html"><img class="perfil-img" src=".\assets\img\seta-para-esquerda.png"></a>
+      </figure>
+      <!--CALENDÁRIO-->
+      <figure class="calendário-fig">
+        <a href="calendario.html"><img class="calendário-img" src=".\assets\img\calendario.png"></a>
+      </figure>
+    </div>
+  </header>
+
+  <div class="spacer"></div>
+
+  <!--PERFIL-->
+  <main class="main-box">
+    <div class="box1">
+
+      <input class="nome" type="text" placeholder="Nome">
+
+      <input class="idade" type="text" placeholder="Idade">
+
+      <div class="status">
+        <div class="consultas_box">
+          <h3 class="number">-</h3>
+          <h4 class="status-legenda">Consultas Feitas</h4>
+        </div>
+
+        <div class="slicer">/</div>
+
+        <div class="consultas_box">
+          <h3 class="number">-</h3>
+          <h4 class="status-legenda">Consultas Marcadas</h4>
+        </div>
+
+        <div class="consultas_box">
+          <h3 class="time">Última consulta:</h3>
+          <h4 class="days">-</h4>
+        </div>
+      </div>
+
+      <ul class="list">
+        <input class="list-item" type="text" placeholder="Lista de enfermidades">
+      </ul>
+    </div>
+
+    <div class="box2">
+      <div class="inbox2">
+        <figure class="pessoa-fig">
+          <img  class="pessoa-img" src=".\assets\img\Renata.jpg">
+          <h3 class="risco">Risco</h3>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <div class="anotation-box">
+    <input class="anotation-text" type="text" placeholder="Anotar">
+  </div>
+</body>
+
+</html>
