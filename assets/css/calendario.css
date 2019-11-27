@@ -3,9 +3,21 @@
   padding: 0;
   height: 10vh;
 }
+.perfil-fig {
+  width: 0%;
+}
+.mes-titulo {
+  font-size: 1.5rem;
+  margin: auto;
+}
+
 .semana, .dia {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1px;
+}
+.dia {
+  grid-template-rows: repeat(4, 1fr);
 }
 .semana {
   height: 5vh;
@@ -24,7 +36,6 @@
   align-items: center;
   background-color: white;
   flex-flow: column nowrap;
-
 }
 .dia-valor {
   font-size: 1.2rem;
@@ -32,16 +43,15 @@
   margin: .5rem auto;
 }
 .agendamento {
-  width: 90%;
   margin: .25rem auto;
   text-align: center;
 }
-.agendamento:hover,
-.agendamento:focus  {
+.dia-item:hover,
+.dia-item:focus  {
   background-color: green;
 }
-.agendamento:active,
-.agendamento.is-selected {
+.dia-item:active,
+.dia-item.is-selected {
 }
 /*UNDER HALF*/
 @media (max-width: 0rem) {
