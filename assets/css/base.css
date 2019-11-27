@@ -1,11 +1,8 @@
 /*CORPO*/
 .body {
-  font-family: 'Muli', sans-serif;
-  background-color: #E2E2E2;
 }
 /*HEADER*/
 .header {
-  background-color: #FFC226;
   width: 100%;
   padding-top: .5rem;
   position: fixed;

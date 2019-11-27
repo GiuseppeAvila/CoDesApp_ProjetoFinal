@@ -3,20 +3,15 @@
   width: 90%;
   margin-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom-style: solid;
-  border-bottom-color: #000000;
-  border-bottom-width: 1px;
   display: flex;
 }
 .box1 {
   min-width: 60%;
 }
 .nome {
-  font-size: 1.5rem;
 }
 .idade {
   margin-top: .5rem;
-  font-size: 1.3rem;
 }
 .status {
   display: flex;
@@ -25,14 +20,12 @@
 }
 .number {
   display: flex;
-  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   height: 2.5rem;
   overflow: visible;
 }
 .slicer {
-  font-size: 2.5rem;
   height: 2.5rem;
 }
 .status-legenda {
@@ -44,7 +37,6 @@
 }
 .days {
   margin-top: .25rem;
-  font-size: 1.1rem;
   margin-left: 1rem;
 }
 .list {
@@ -56,7 +48,6 @@
   margin-bottom: .25rem;
   margin-left: 1rem;
   list-style-type: circle;
-  font-size: 1.2rem;
 }
 
 .box2 {
@@ -90,9 +81,6 @@
   margin-left: 1.75rem;
   margin-top: -1rem;
   padding: 1px;
-  border: 1px solid darkred;
-  background-color: white;
-  color: red;
 }
 .pago {
   margin-top: 1rem;
@@ -109,25 +97,8 @@
   width: 90%;
   height: 12rem;
   margin-top: 1rem;
-  border: 2px solid #000000;
-  background-color: white;
   overflow: scroll;
   overflow-x:hidden;
-}
-/* Scrollbar styles */
-::-webkit-scrollbar {
-width: 12px;
-height: 12px;
-}
-
-::-webkit-scrollbar-track {
-border: 1px solid #FFC226;
-border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-background: #FFC226;  
-border-radius: 10px;
 }
 .anotation-text {
   margin: .5rem;

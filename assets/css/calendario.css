@@ -26,7 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 .dia {
   height: 85vh;
@@ -34,12 +33,10 @@
 .dia-item {
   display: flex;
   align-items: center;
-  background-color: white;
   flex-flow: column nowrap;
 }
 .dia-valor {
   font-size: 1.2rem;
-  color: gray;
   margin: .5rem auto;
 }
 .agendamento {
@@ -48,7 +45,6 @@
 }
 .dia-item:hover,
 .dia-item:focus  {
-  background-color: green;
 }
 .dia-item:active,
 .dia-item.is-selected {
