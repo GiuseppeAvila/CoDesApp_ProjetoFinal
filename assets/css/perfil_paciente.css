@@ -9,6 +9,7 @@
   min-width: 60%;
 }
 .nome {
+  font-family: 'Merriweather', serif;
 }
 .idade {
   margin-top: .5rem;
@@ -43,6 +44,7 @@
   display: flex;
   flex-flow: column nowrap;
   margin-top: 1rem;
+  font-family: 'Public Sans', sans-serif;
 }
 .list-item {
   margin-bottom: .25rem;
@@ -81,11 +83,13 @@
   margin-left: 1.75rem;
   margin-top: -1rem;
   padding: 1px;
+  font-family: 'Public Sans', sans-serif;
 }
 .pago {
   margin-top: 1rem;
   display: flex;
   flex-flow: row-reverse nowrap;
+  font-family: 'Public Sans', sans-serif;
 }
 .tick-img {
   height: 1rem;
@@ -100,6 +104,7 @@
   margin-top: 1rem;
   overflow: scroll;
   overflow-x:hidden;
+  font-family: 'Public Sans', sans-serif;
 }
 .anotation-text {
   margin: .5rem;
