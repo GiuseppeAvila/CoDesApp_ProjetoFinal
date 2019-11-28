@@ -21,26 +21,26 @@ document.addEventListener('DOMContentLoaded', function() {
   /*
     Define a categoria da paginas
   */
-  let perfil;
+  let categoria;
 
-  if (parametros.hasOwnProperty("perfil")) {
-    perfil = parametros["perfil"]
+  if (parametros.hasOwnProperty("categoria")) {
+    categoria = parametros["categoria"]
   }
 
   /*
    Muda os valores dentro do html.
   */
 
-  db.download("/telainicial", function(data) {
+  db.download("telainicial", function(data) {
 
     /*
       Verifica se a data contem a categoria em questão
     */
 
-    if (!data.hasOwnProperty(perfil)) {
+    if (!data.hasOwnProperty(categoria)) {
       console.log("Erro -> Perfil não idendificada");
       
-      categoria = "perfil"
+      categoria = "andre_dos_santos"
     }
     categoria = categoria.toLowerCase()
 
@@ -49,10 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     */
 
     window.document.title = categoria.charAt(0).toUpperCase() + categoria.slice(1)
-
-    coDesReplace(".body-perfil", data)
-
-
-    document.body.innerHTML = document.body.innerHTML.replace(/qual_categoria/g, categoria)
+    console.log(data[categoria])
+    coDesReplace(".body-perfil", data[categoria])
   })
 })
