@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Escolhas de Design
 
-You can use the [editor on GitHub](https://github.com/GiuseppeAvila/CoDesApp_ProjetoFinal/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## - Cores
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Nosso aplicativo é voltado para a organização, e assim nós optamos por cores que tem um forte contraste entre si mas que não são agressivas ao olho do usuário, de tal modo que ao olhar para a tela é fácil distinguir rapidamente os elementos da tela e encontrar o que se procura. A princípio tentamos branco e amarelo, mas não só o branco era claro demais como não contrastava bem com o amarelo. Assim, escurecemos o tom de amarelo, obtendo laranja, e trocamos o branco por tons de cinza.
 
-### Markdown
+## - Fontes
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GiuseppeAvila/CoDesApp_ProjetoFinal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Sendo o aplicativo voltado para a organização, nós priorizamos a facilidade de leitura e leveza em detrimento de opções mais rebuscadas e pesadas. Assim, buscamos algo que refletisse um ar profissional, leve e fácil de ler. Seguindo esse argumento, as fontes escolhidas foram Public Sans para títulos e Raleway para textos.
