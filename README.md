@@ -6,4 +6,4 @@ Nosso aplicativo é voltado para a organização, e assim nós optamos por cores
 
 ## - Fontes
 
-Sendo o aplicativo voltado para a organização, nós priorizamos a facilidade de leitura e leveza em detrimento de opções mais rebuscadas e pesadas. Assim, buscamos algo que refletisse um ar profissional, leve e fácil de ler. Seguindo esse argumento, as fontes escolhidas foram Public Sans para títulos e Raleway para textos.
+Sendo o aplicativo voltado para a organização, nós priorizamos a facilidade de leitura e leveza em detrimento de opções mais rebuscadas e pesadas. Assim, buscamos algo que refletisse um ar profissional, leve e fácil de ler. Seguindo esse argumento, as fontes escolhidas foram Merriweather para títulos e Public Sans para textos.
