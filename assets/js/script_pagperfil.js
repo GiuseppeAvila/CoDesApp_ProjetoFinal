@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
    Muda os valores dentro do html.
   */
 
-  db.download("telainical", function(data) {
+  db.download("/telainicial", function(data) {
 
     /*
       Verifica se a data contem a categoria em questão
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!data.hasOwnProperty(perfil)) {
       console.log("Erro -> Perfil não idendificada");
       
-      categoria = "fisico"
+      categoria = "perfil"
     }
     categoria = categoria.toLowerCase()
 
@@ -50,11 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.document.title = categoria.charAt(0).toUpperCase() + categoria.slice(1)
 
-    coDesReplace(".h2_b1", categoria)
-    coDesReplace(".texto1", data[categoria])
+    coDesReplace(".body-perfil", data)
+
 
     document.body.innerHTML = document.body.innerHTML.replace(/qual_categoria/g, categoria)
-
-    coDesReplace(".projetos", data[categoria])
   })
 })
