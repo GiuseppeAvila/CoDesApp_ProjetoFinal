@@ -75,8 +75,9 @@
         </div>
 
         <ul class="list">
-          <li class="list-item">Ansiedade Aguda</li>
-          <li class="list-item">Depressão</li>
+          {{#each this.doencas}}
+          <li class="list-item">{{this}}</li>
+          {{/each}}
         </ul>
       </div>
 
@@ -89,8 +90,8 @@
           <img class="telefone-img" src=".\assets\img\telefone.png">
         </div>
         <figure class="pago">
-          <h3 class="pago-text">PAGO</h3>
-          <img class="tick-img" src=".\assets\img\tick.png">
+          <h3 class="pago-text">{{pago}}</h3>
+          <img class="tick-img" src=".\assets\img\{{pago}}.png">
         </figure>
       </div>
     </main>
