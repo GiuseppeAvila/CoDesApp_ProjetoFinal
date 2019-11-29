@@ -7,3 +7,5 @@ Nosso aplicativo é voltado para a organização, e assim nós optamos por cores
 ## - Fontes
 
 Sendo o aplicativo voltado para a organização, nós priorizamos a facilidade de leitura e leveza em detrimento de opções mais rebuscadas e pesadas. Assim, buscamos algo que refletisse um ar profissional, leve e fácil de ler, que não chama muita atenção e permite que a organização visual da página baste para diferenciar os elementos. O mais indicado para esse efeito seria combinar fontes Realistas Transicionais, que diferem pouco entre si em variação do traço e forma das letras. Seguindo esse argumento, as fontes escolhidas foram Merriweather para títulos e Public Sans para textos.
+
+Menu Lateral inspirado pelo código de: https://www.w3schools.com/howto/howto_js_off-canvas.asp
