@@ -13,6 +13,7 @@
 }
 .idade {
   margin-top: .5rem;
+  font-family: 'Merriweather', serif;
 }
 .status {
   display: flex;
@@ -25,20 +26,24 @@
   align-items: center;
   height: 2.5rem;
   overflow: visible;
+  font-family: 'Public Sans', sans-serif;
 }
 .slicer {
   height: 2.5rem;
 }
 .status-legenda {
   text-align: center;
+  font-family: 'Public Sans', sans-serif;
 }
 .time {
   margin-top: 1rem;
   margin-left: 1rem;
+  font-family: 'Public Sans', sans-serif;
 }
 .days {
   margin-top: .25rem;
   margin-left: 1rem;
+  font-family: 'Public Sans', sans-serif;
 }
 .list {
   display: flex;
