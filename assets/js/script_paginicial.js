@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   */
 
   db.download("telainicial", function(data) {
+    console.log(data)
     coDesReplace(".body-pacientes", data)
   })
 })
