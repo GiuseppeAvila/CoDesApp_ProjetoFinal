@@ -85,7 +85,7 @@
 }
 .dia-item:hover,
 .dia-item:focus  {
-  background-color: green;
+  background-color: rgb(173, 173, 173);
 }
 .dia-valor {
   color: gray;

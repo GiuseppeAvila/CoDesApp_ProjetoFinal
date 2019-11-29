@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <!--HEAD-->
+
 <head>
   <!--TITULO-->
   <title>PAGINA INICIAL</title>
@@ -10,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   <!--STYLE-->
   <link href="assets/css/reset.css" rel="stylesheet">
-  <link href="assets/css/base.css"  rel="stylesheet">
+  <link href="assets/css/base.css" rel="stylesheet">
   <link href="assets/css/pagina_inicial.css" rel="stylesheet">
   <link href="assets/css/design.css" rel="stylesheet">
   <!--META-->
@@ -23,25 +24,26 @@
 </head>
 
 <!--BODY-->
+
 <body class="body">
   <!--MENU LATERAL-->
-    <div id="menuLateralId" class="menulateral">
-        <figure class="perfil-fig">
-            <img class="perfil-img" src=".\assets\img\Renata.jpg">
-        </figure>
-        <p class="helpText">Olá Renata</p>
-        <div class="spacer"></div>
-        <a href="javascript:void(0)" class="botaofechar" onclick="fecharMenu()">&times;</a>
-        <a href="index.html">Início</a>
-        <a href="calendario.html">Calendário</a>
-        <a href="help.html">Ajuda</a>
-    </div>
+  <div id="menuLateralId" class="menulateral">
+    <figure class="perfil-fig">
+      <img class="perfil-img" src=".\assets\img\Renata.jpg">
+    </figure>
+    <p class="helpText">Olá Renata</p>
+    <div class="spacer"></div>
+    <a href="javascript:void(0)" class="botaofechar" onclick="fecharMenu()">&times;</a>
+    <a href="index.html">Início</a>
+    <a href="calendario.html">Calendário</a>
+    <a href="help.html">Ajuda</a>
+  </div>
   <!--HEADER-->
   <header class="header">
     <div class="header-display">
       <!--RENATA-->
       <figure class="perfil-fig">
-          <span class="perfil-img" style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
+        <span class="perfil-img" style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
       </figure>
       <!--CALENDÁRIO-->
       <figure class="calendário-fig">
@@ -72,42 +74,42 @@
     </a>
   </footer>
 
-  <div class = body-pacientes>
+  <div class=body-pacientes>
     {{#each this}}
     <!--PACIENTE-->
     <a href="perfil.html?categoria={{@key}}" class="paciente-box">
-    <div class="paciente">
-      <!--IMG-->
-      <figure class="paciente-fig">
-        <img class="paciente-img" style="border-color:red;" src=".\assets\img\Renata.jpg">
-      </figure>
-      <!--INFO-->
-      <div class="paciente-info">     
-        <h2 class="nome-paciente">
-          {{this.nome}}
-        </h2> 
-      </div>  
-      <figure class="tag-fig">
-        <legend class="tag-leg">{{this.horario}}</legend>
-        {{#each this.urgente}}
-        <img class="tag-img" src=".\assets\img\{{this}}.jpg">
-        {{/each}}
-      </figure>
-    </div>
-    {{/each}}
+      <div class="paciente">
+        <!--IMG-->
+        <figure class="paciente-fig">
+          <img class="paciente-img" style="border-color:red;" src=".\assets\img\Renata.jpg">
+        </figure>
+        <!--INFO-->
+        <div class="paciente-info">
+          <h2 class="nome-paciente">
+            {{this.nome}}
+          </h2>
+        </div>
+        <figure class="tag-fig">
+          <legend class="tag-leg">{{this.horario}}</legend>
+          {{#each this.urgente}}
+          <img class="tag-img" src=".\assets\img\{{this}}.jpg">
+          {{/each}}
+        </figure>
+      </div>
+      {{/each}}
   </div>
-    
+
   </a>
   <script>
-      function abrirMenu() {
-          document.getElementById("menuLateralId").style.width = "250px";
-          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-      }
+    function abrirMenu() {
+      document.getElementById("menuLateralId").style.width = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
 
-      function fecharMenu() {
-          document.getElementById("menuLateralId").style.width = "0";
-          document.body.style.backgroundColor = "#E2E2E2";
-      }
+    function fecharMenu() {
+      document.getElementById("menuLateralId").style.width = "0";
+      document.body.style.backgroundColor = "#E2E2E2";
+    }
   </script>
 
 </body>
