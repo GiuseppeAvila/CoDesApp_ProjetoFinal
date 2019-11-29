@@ -19,16 +19,29 @@
   <!--SCRIPT-->
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/script_paginicial.js"></script>
+
 </head>
 
 <!--BODY-->
 <body class="body">
+  <!--MENU LATERAL-->
+    <div id="menuLateralId" class="menulateral">
+        <figure class="perfil-fig">
+            <img class="perfil-img" src=".\assets\img\Renata.jpg">
+        </figure>
+        <p class="helpText">Olá Renata</p>
+        <div class="spacer"></div>
+        <a href="javascript:void(0)" class="botaofechar" onclick="fecharMenu()">&times;</a>
+        <a href="index.html">Início</a>
+        <a href="calendario.html">Calendário</a>
+        <a href="help.html">Ajuda</a>
+    </div>
   <!--HEADER-->
   <header class="header">
     <div class="header-display">
       <!--RENATA-->
       <figure class="perfil-fig">
-        <img class="perfil-img" src=".\assets\img\Renata.jpg">
+          <span class="perfil-img" style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
       </figure>
       <!--CALENDÁRIO-->
       <figure class="calendário-fig">
@@ -51,7 +64,7 @@
     </div>
   </header>
 
-  <div class="spacer"></div>
+  <div class="spacerInicial"></div>
 
   <footer class="plus-box">
     <a href="ad-pacientes.html" class="plus">
@@ -62,7 +75,7 @@
   <div class = body-pacientes>
     {{#each this}}
     <!--PACIENTE-->
-    <a href="perfil.html" class="paciente-box">
+    <a href="perfil.html?categoria={{@key}}" class="paciente-box">
     <div class="paciente">
       <!--IMG-->
       <figure class="paciente-fig">
@@ -70,14 +83,14 @@
       </figure>
       <!--INFO-->
       <div class="paciente-info">     
-        <h2>
+        <h2 class="nome-paciente">
           {{this.nome}}
         </h2> 
       </div>  
       <figure class="tag-fig">
         <legend class="tag-leg">{{this.horario}}</legend>
         {{#each this.urgente}}
-        <img class="tag-img" src=".\assets\img\{{this}}.jpg">
+        <img class="tag-img" src="./assets/img/{{this}}.jpg">
         {{/each}}
       </figure>
     </div>
@@ -85,6 +98,17 @@
   </div>
     
   </a>
+  <script>
+      function abrirMenu() {
+          document.getElementById("menuLateralId").style.width = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      function fecharMenu() {
+          document.getElementById("menuLateralId").style.width = "0";
+          document.body.style.backgroundColor = "#E2E2E2";
+      }
+  </script>
 
 </body>
 

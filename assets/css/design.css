@@ -2,10 +2,79 @@
 .body {
   font-family: 'Muli', sans-serif;
   background-color: #E2E2E2;
+  transition: background-color .5s;
 }
+/*HEADER*/
 .header {
   background-color: #FFC226;
+  width: 100%;
+  padding-top: .5rem;
+  position: fixed;
   box-shadow: .5px .5px 5px gray;
+}
+.header-display {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.calendário-fig {
+	height: 3.5rem;
+	width: 3.5rem;
+	display: flex;
+	align-items: center;
+}
+.calendário-img {
+	width: 3rem;
+}
+/*MENU LATERAL*/
+.menulateral {
+  font-family: 'Public Sans', sans-serif;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFC226;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menulateral p,figure {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #636363;
+  display: block;
+  transition: 0.3s;
+}
+
+.menulateral a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #636363;
+  display: block;
+  transition: 0.3s;
+}
+
+.menulateral a:hover {
+  color: #f1f1f1;
+}
+
+.menulateral .botaofechar {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*SPACER*/
+.spacerInicial {
+  padding: 4.3rem 1rem;
+}
+.spacer {
+  padding: 2.6rem 1rem;
 }
 /*CALENDARIO*/
 .semana-item {
@@ -117,4 +186,18 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb {
 background: #FFC226;  
 border-radius: 10px;
+}
+/*AJUDA*/
+.help{
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+	width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+.helptext{
+  font-family: 'Public Sans', sans-serif;
+  width: 100%;
+  text-align: center;
 }
