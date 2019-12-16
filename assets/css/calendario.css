@@ -10,7 +10,7 @@
   margin: auto;
 }
 .mes-titulo {
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .semana, .dia {
   display: grid;
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Arvo", serif;
 }
 .dia {
   height: 85vh;
@@ -44,7 +44,7 @@
 .agendamento {
   margin: .25rem auto;
   text-align: center;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Arvo', serif;
 }
 .dia-item:hover,
 .dia-item:focus  {

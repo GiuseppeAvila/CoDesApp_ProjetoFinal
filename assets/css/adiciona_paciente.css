@@ -4,11 +4,11 @@
 }
 .nome {
   width: 12rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .idade {
   width: 6rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .status {
 }
@@ -17,10 +17,10 @@
 .slicer {
 }
 .status-legenda {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Arvo', serif;
 }
 .time {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Arvo', serif;
 }
 .days {
 }
@@ -28,7 +28,7 @@
 }
 .list-item {
   margin-left: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .box2 {
@@ -42,7 +42,7 @@
 .pessoa-img {
 }
 .risco {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Arvo', serif;
 }
 .pago {
 }
@@ -60,7 +60,7 @@
 ::-webkit-scrollbar-thumb {
 }
 .anotation-text {
-	font-family: 'Merriweather', serif;
+	font-family: 'Poppins', sans-serif;
 }
 /*UNDER HALF*/
 @media (max-width: 0rem) {

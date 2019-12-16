@@ -1,6 +1,6 @@
 /*CORPO*/
 .body {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Arvo', serif;
   background-color: #E2E2E2;
   transition: background-color .5s;
 }
@@ -27,7 +27,7 @@
 }
 /*MENU LATERAL*/
 .menulateral {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Arvo', serif;
   height: 100%;
   width: 0;
   position: fixed;
@@ -197,7 +197,7 @@ border-radius: 10px;
   justify-content: center;
 }
 .helptext{
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Arvo', serif;
   width: 100%;
   text-align: center;
 }

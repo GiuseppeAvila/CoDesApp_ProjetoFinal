@@ -9,11 +9,11 @@
   min-width: 60%;
 }
 .nome {
-  font-family: 'Merriweather', serif;
+  font-family: "Poppins", sans-serif;
 }
 .idade {
   margin-top: .5rem;
-  font-family: 'Merriweather', serif;
+  font-family: "Poppins", sans-serif;
 }
 .status {
   display: flex;
@@ -26,30 +26,30 @@
   align-items: center;
   height: 2.5rem;
   overflow: visible;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .slicer {
   height: 2.5rem;
 }
 .status-legenda {
   text-align: center;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .time {
   margin-top: 1rem;
   margin-left: 1rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .days {
   margin-top: .25rem;
   margin-left: 1rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .list {
   display: flex;
   flex-flow: column nowrap;
   margin-top: 1rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .list-item {
   margin-bottom: .25rem;
@@ -88,13 +88,13 @@
   margin-left: 1.75rem;
   margin-top: -1rem;
   padding: 1px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .pago {
   margin-top: 1rem;
   display: flex;
   flex-flow: row-reverse nowrap;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .tick-img {
   height: 1rem;
@@ -109,7 +109,7 @@
   margin-top: 1rem;
   overflow: scroll;
   overflow-x:hidden;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Arvo", serif;
 }
 .anotation-text {
   margin: .5rem;
